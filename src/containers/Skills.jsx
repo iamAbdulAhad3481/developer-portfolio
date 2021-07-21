@@ -8,12 +8,13 @@ import {
     Container,
     Row,
     Col,
-    UncontrolledTooltip
 } from "reactstrap";
+import ReactTooltip from 'react-tooltip';
 
 import { skillsSection } from "../portfolio";
 
 const Skills = () => {
+
     return ( 
         <Fade left duration={1000} distance="40px">
             <Container className="text-center my-5 section section-lg">
@@ -28,16 +29,15 @@ const Skills = () => {
                         {
                             skillsSection.softwareSkills.map((skill) => {
                                 return <Fragment key={skill.skillName}>
-                            <div className="icon icon-lg icon-shape shadow rounded-circle mb-5"  id={skill.skillName}>
-                                <span className="iconify" data-icon={skill.fontAwesomeClassname} data-inline="false"></span>
+                            <div className="icon icon-lg icon-shape shadow rounded-circle mb-5" data-tip data-for={skill.skillName} id={skill.skillName}>
+                                <span className="iconify" data-icon={skill.fontAwesomeClassname}></span>
                             </div>
-                            <UncontrolledTooltip
-                                delay={0}
-                                placement="bottom"
-                                target={skill.skillName}
+                             <ReactTooltip
+                                place="bottom"
+                                id={skill.skillName}
                                 >
                                 {skill.skillName}
-                            </UncontrolledTooltip>
+                            </ReactTooltip>
                                 </Fragment>
                             })
                         }

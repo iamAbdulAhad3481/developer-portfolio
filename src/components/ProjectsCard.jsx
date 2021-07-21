@@ -20,7 +20,10 @@ const ProjectsCard = ({data}) => {
                     <h5 className="text-info">
                     {data.name}
                     </h5>
-                    <p className="description mt-3">
+                    <p className="description project-tool">
+                       <strong>Tools & Technologies : </strong> {data.tools}
+                    </p>
+                    <p className="description">
                         {data.desc}
                     </p>
                     {
