@@ -8,7 +8,7 @@ export const greetings = {
     "name": "Abdul Ahad",
     "title": "Hi all, I'm Abdul Ahad",
     "description": "A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Redux / HTML / CSS3 / Bootstrap and some other cool libraries and frameworks and Cross Platform Mobile Apps With Apache Cordova and React Native.",
-    "resumeLink": "https://drive.google.com/file/d/1BhyLfsqK6Cn-Ogvw0Hu-aQvOKEulpDPJ/view"
+    "https://drive.google.com/file/d/1msVX4zIQV2IsNZcxasxzDqHo_CG72g3k/view?usp=drive_link"
 }
 
 export const openSource = {
@@ -65,12 +65,16 @@ export const skillsSection = {
         skillName: 'React Js',
         fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
       },
+    {
+        skillName: 'Next Js',
+        fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
+      },
       {
         skillName: 'React Native',
         fontAwesomeClassname: 'vscode-icons:file-type-reacttemplate',
       },
       {
-        skillName: 'Apache Cordova',
+        skillName: 'Apache Capacitor',
         fontAwesomeClassname: 'vscode-icons:file-type-apache',
       },
       {
