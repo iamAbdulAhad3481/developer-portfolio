@@ -211,30 +211,81 @@ export const experience = [
 
 export const projects = [
   {
+    name: "ENPNT",
+    tools:
+      "React js, Next js, Tailwind CSS, Apache Capacitor, Next.js, GraphQL",
+    desc: `Enpointe is a hybrid application developed using Next.js and Apache Capacitor, designed to cater to the B2C arts industry.`,
+    descBullets: [
+      "Led and successfully delivered e-commerce app, ensuring robust frontend development for both web and mobile interfaces using Next Js and Apache Capacitor.",
+      " Working closely with designers and stakeholders to ensure a seamless and visually appealing user experience for customers.",
+      " Integrating the Apache Capacitor framework to enable the hybrid functionality of the application, allowing it to run seamlessly on both iOS and Android platforms",
+    ],
+  },
+  {
+    name: "Hypr",
+    tools: "React js, Redux, Antd, GraphQL, TypeScript",
+    desc: `HYPR is an admin panel, designed to cater to retail operations with a B2C orientation, needing a transformative shift to React.`,
+    descBullets: [
+      "Translating an existing Angular-based UI into React, ensuring no loss of functionality and improving usability where possible, all within a constricted timeframe.",
+      "Successfully converted the HYPR admin panel to React within the given limited timeframe, ensuring enhanced performance and future scalability.",
+      "Managed, maintained, and enriched the company's internal repository of reusable components to streamline development across the team.",
+    ],
+  },
+  {
+    name: "LMS (Loyalty Management System)",
+    tools: "React js, Redux, Antd, GraphQL, TypeScript",
+    desc: `LMS is a comprehensive in-house product, designed to encompass all facets of loyalty management and promotions, providing a unified system to manage diverse aspects of customer loyalty and promotional management`,
+    descBullets: [
+      "Led the Front-End development team, steering the design, development, and deployment phases, ensuring all aspects of the LMS were cohesive and adherent to specified requirements.",
+      "Engaged in strategic planning, task allocation, and code reviews, while maintaining a hands-on approach to coding and problem-solving.",
+      "Successfully led the FE team to build and deliver the LMS, ensuring timely delivery and robust performance, with the product effectively managing complex loyalty and promotional paradigms",
+    ],
+  },
+  {
     name: "UpForJobs",
     tools: "React, Redux, TypeScript, Apollo Client, GraphQL",
     desc: `UpForJobs is a unique digital freelance marketplace tailored to help both businesses and freelancers.
      It is a website with a focus on helping buisness, to find freelancers and to freelancers to find respected work!`,
+    descBullets: [
+      "As a dedicated React Developer, I was entrusted with all React-related tasks and modules, ensuring the frontend was not only user-friendly but also robust and securely integrated with the backend functionalities.",
+      "Actively collaborated with the team to assure that each module I developed was seamlessly integrated into the overall platform, ensuring a coherent and stable user experience.",
+      "Developing a reliable and user-friendly platform to manage and facilitate the numerous interactions between freelancers and clients, ensuring secure, transparent, and efficient project management and transaction handling.",
+    ],
   },
   {
     name: "Pesaswap(B2B)",
     tools: "Cordova, React, Redux, Tailwind, TypeScript",
-    desc: "Pesaswap(B2B) is a cross-platform (PWA) hybrid application build on Cordova with react. It's a point of sale system which digitalizes B2B purchasing and selling of items b/w retailer and distributor.",
+    desc: "PesaSwap provided a robust B2B and B2C platform integrated into a single codebase, acting as a Point-of-Sale (POS) system to facilitate smooth transactions and interactions among customers, retailers, and distributors across both web and mobile platforms",
+    descBullets: [
+      "Solely led the front-end development, navigating through the complexities of creating a hybrid mobile application while ensuring optimal performance and user experience.",
+      "Successfully delivered the project within the stipulated timeline, managing the design, development, and deployment phases to ensure the application was published on relevant platforms effectively",
+      "Managing the complexity of integrating diverse user functionalities within a unified application while maintaining a clean, intuitive user interface and experience.",
+    ],
   },
   {
     name: "Driving Certification",
     tools: "React, Redux, Sass",
     desc: "A web and mobile application for managing the driving schools and their instructors and teachers and their students and managing student's lesson plans.",
+    descBullets: [
+      " Undertook all React-related development tasks, contributing to the front-end design, functionality, and overall user experience.",
+      "Successfully completed all assigned modules, features, and responsibilities, ensuring they adhered to the defined requirements and quality benchmarks.",
+      "Ensuring that the system was robust and error-free, providing reliable service to all stakeholders involved in the driving school’s operations.",
+    ],
   },
-  {
-    name: "NewNew",
-    tools: "React, Redux, TypeScript, LESS",
-    desc: "NewNew is a web application related to client business for showing its posts and news for its customers.",
-  },
+  // {
+  //   name: "NewNew",
+  //   tools: "React, Redux, TypeScript, LESS",
+  //   desc: "NewNew is a web application related to client business for showing its posts and news for its customers.",
+  // },
   {
     name: "ERP System",
     tools: "React, Redux, TypeScript",
-    desc: "ERP is an In House project for maintaining and achieving the need of any organization. It includes modules (e.g Attendance, Task Management, Accounting, Payroll System).",
+    desc: "An in-house ERP product designed to holistically manage all aspects of human resource management, featuring a myriad of modules like attendance, task management, accounting, and payroll to streamline and enhance organizational operations.An in-house ERP product designed to holistically manage all aspects of human resource management, featuring a myriad of modules like attendance, task management, accounting, and payroll to streamline and enhance organizational operations.",
+    descBullets: [
+      "Worked extensively on the 'Attendance' and 'Task Management' modules, managing both development and integration aspects.",
+      "Successfully integrated the attendance and task management modules into the office system, ensuring real-time synchronization and operational efficiency.",
+      "Efficiently developed and integrated the attendance and task management modules, receiving positive feedback for user-friendly design and flawless functionality.",
+    ],
     link: {
       name: "ERP Pack",
       url: "https://codility.erppack.com/",
